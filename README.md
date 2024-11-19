@@ -92,7 +92,7 @@ Steps
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/yourusername/vehicle-rental-management-system.git
+git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
 Import the project into your favorite IDE (IntelliJ IDEA).
 
 Set up the database:
