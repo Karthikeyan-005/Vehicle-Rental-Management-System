@@ -1,10 +1,12 @@
 # Vehicle-Rental-Management-System
 Overview
+
 The Vehicle Rental Management System is a Java-based application designed to streamline the process of renting vehicles. It offers role-based access for admins and users, enabling efficient management of vehicles and rental transactions. The application uses MySQL Workbench as its database backend for reliable data storage and retrieval.
 
 This project demonstrates essential software development practices, including object-oriented programming, role-based access control, database integration, and modular design.
 
 Features
+
 Admin Role
 Admins can perform the following actions:
 
@@ -40,37 +42,50 @@ Object-Oriented Programming (OOP) Concepts Used
 This application is designed with a strong focus on Object-Oriented Programming (OOP) principles. Below are the key OOP concepts applied in the project:
 
 1. Abstraction
-Description: Abstracting high-level functionalities through abstract classes.
-Usage: The Role class is defined as an abstract class to generalize the behaviors of both admin and user roles. Concrete implementations (AdminRole and UserRole) provide specific functionalities.
-2. Encapsulation
-Description: Wrapping data and methods that operate on data within a single unit to protect the data.
+Description:
+ Abstracting high-level functionalities through abstract classes.
 Usage:
-The DatabaseConnection class encapsulates database connection logic, ensuring it is reusable and secure.
+ The Role class is defined as an abstract class to generalize the behaviors of both admin and user roles. Concrete implementations (AdminRole and UserRole) provide specific functionalities.
+3. Encapsulation
+Description:
+ Wrapping data and methods that operate on data within a single unit to protect the data.
+Usage:
+ The DatabaseConnection class encapsulates database connection logic, ensuring it is reusable and secure.
 Admin and user operations are modularized in the AdminOperations and UserOperations classes, hiding implementation details from the main program.
-3. Inheritance
-Description: Enabling one class to acquire the properties and methods of another class.
+5. Inheritance
+Description:
+ Enabling one class to acquire the properties and methods of another class.
 Usage:
-The AdminRole and UserRole classes inherit from the Role class, allowing common role-based functionalities to be defined once and extended by specific roles.
-4. Polymorphism
-Description: Allowing methods to be overridden or objects to take on multiple forms.
+ The AdminRole and UserRole classes inherit from the Role class, allowing common role-based functionalities to be defined once and extended by specific roles.
+7. Polymorphism
+Description:
+ Allowing methods to be overridden or objects to take on multiple forms.
 Usage:
-Method overriding is used in AdminRole and UserRole to provide specific implementations of the showMenu() method.
+ Method overriding is used in AdminRole and UserRole to provide specific implementations of the showMenu() method.
 Polymorphism is demonstrated in the main program by treating objects of AdminRole and UserRole as instances of the Role superclass.
-5. Modularity (Supporting Concept)
-Description: Structuring the application into independent modules for better organization and maintenance.
-Usage: Different functionalities like authentication, role-specific operations, and database interactions are separated into distinct classes.
+9. Modularity (Supporting Concept)
+Description:
+ Structuring the application into independent modules for better organization and maintenance.
+Usage:
+ Different functionalities like authentication, role-specific operations, and database interactions are separated into distinct classes.
 By leveraging these OOP principles, the application is modular, reusable, and easier to maintain.
+
 How to Run the Application
+
 Prerequisites
+
 Java Development Kit (JDK) installed on your system.
 MySQL Workbench installed and configured.
 MySQL JDBC Driver added to your project's classpath.
+
 Steps
+
 Clone the repository:
 bash
 Copy code
 git clone https://github.com/yourusername/vehicle-rental-management-system.git
 Import the project into your favorite IDE (IntelliJ IDEA).
+
 Set up the database:
 
 Setup Instructions
