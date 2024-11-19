@@ -10,16 +10,25 @@ Features
 Admin Role
 Admins can perform the following actions:
 
-Add Vehicles: Add new vehicles to the system, specifying type, number, rental price, and total availability.
-Update Vehicles: Update details of existing vehicles.
-Delete Vehicles: Remove vehicles from the system.
-View All Vehicles: View the complete list of vehicles, including details like type, number, price per day, and availability.
+Add Vehicles:
+Add new vehicles to the system, specifying type, number, rental price, and total availability.
+Update Vehicles:
+Update details of existing vehicles.
+Delete Vehicles:
+Remove vehicles from the system.
+View All Vehicles:
+View the complete list of vehicles, including details like type, number, price per day, and availability.
 User Role
+
 Users can perform the following actions:
 
-Rent a Vehicle: Select an available vehicle, specify the rental duration, and make payments.
-Return a Vehicle: Return a rented vehicle and update the system inventory.
-View Available Vehicles: Browse through the list of vehicles available for rent.
+Rent a Vehicle:
+Select an available vehicle, specify the rental duration, and make payments.
+Return a Vehicle:
+Return a rented vehicle and update the system inventory.
+View Available Vehicles:
+Browse through the list of vehicles available for rent.
+
 Technology Stack
 Frontend
 Java Console: The application uses a simple console interface for interactions.
