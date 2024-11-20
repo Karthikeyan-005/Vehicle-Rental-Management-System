@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class AdminRole extends Role {
     @Override
     public void showMenu(Scanner scanner) {
+        while(true){
         System.out.println("Admin Menu:");
         System.out.println("1. Add Vehicle");
         System.out.println("2. Update Vehicle");
@@ -24,4 +25,5 @@ public class AdminRole extends Role {
             default -> System.out.println("Invalid choice.");
         }
     }
+  }
 }
