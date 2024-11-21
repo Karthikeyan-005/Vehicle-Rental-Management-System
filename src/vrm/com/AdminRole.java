@@ -11,6 +11,7 @@ public class AdminRole extends Role {
         System.out.println("4. View All Vehicles");
         System.out.println("5. Exit");
         while (true){
+        System.out.print("Enter your Choice: ");
         int choice = scanner.nextInt();
         scanner.nextLine();
 
