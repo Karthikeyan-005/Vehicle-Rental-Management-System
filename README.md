@@ -4,7 +4,7 @@
 
 The Vehicle Rental Management System is a Java-based application designed to streamline the process of renting vehicles. It offers role-based access for admins and users, enabling efficient management of vehicles and rental transactions. The application uses MySQL Workbench as its database backend for reliable data storage and retrieval.
 
-This project demonstrates essential software development practices, including object-oriented programming, role-based access control, database integration, and modular design.
+
 
 ## Features
 
@@ -49,7 +49,7 @@ Java Database Connectivity for database operations.
 Used for database creation and management.
 
 ### Database Structure
-The database vehicle_rental contains a table named vehicles with the following structure:
+The database **vehicle_rental** contains a table named **vehicles** with the following structure:
 
 **id:** Primary key, unique identifier for each vehicle.
 
@@ -119,10 +119,6 @@ MySQL JDBC Driver added to your project's classpath.
 
 Clone the repository:
 
-bash
-
-Copy code
-
 git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
 
 Import the project into your favorite IDE (IntelliJ IDEA).
@@ -132,48 +128,43 @@ Import the project into your favorite IDE (IntelliJ IDEA).
 
 ### Setup Instructions
 1. Clone the Repository
-bash
-Copy code
-git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
+
+- git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
 
 2. Set Up the Database
 
- - Open MySQL Workbench or your preferred database tool.
+- Open MySQL Workbench or your preferred database tool.
 
- Create a new database (vehicle_rental).
+- Create a new database (vehicle_rental).
 
-Import the SQL file located in the /database folder:
+- Import the SQL file located in the /database folder:
 
-Navigate to the database/vehicle_rental.sql file.
+- Navigate to the database/vehicle_rental.sql file.
 
-Execute the script to set up the schema and populate the tables.
+- Execute the script to set up the schema and populate the tables.
 
 3. Update Database Configuration
 
 In the application code, update the database connection details in the Java file handling the database connection (DatabaseConnection.java):
 
-java
+- String url = "jdbc:mysql://localhost:3306/vehicle_rental";
 
-Copy code
+- String user = "root";
 
-String url = "jdbc:mysql://localhost:3306/vehicle_rental";
-
-String user = "your-username";
-
-String password = "your-password";
+- String password = "sql45";
 
 4. Run the Application
 
-Open the project in your Java IDE.
+- Open the project in your Java IDE.
 
-Build and run the application.
+- Build and run the application.
 
 ## Usage
 
 ### Login:
 
 **Admins:** 
-Use the username admin and password admin123.
+Use the username **admin** and password **admin123**.
 
 **Users:** 
 Simply select "no" when prompted for admin access.
