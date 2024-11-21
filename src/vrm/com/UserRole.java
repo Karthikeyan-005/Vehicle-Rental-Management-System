@@ -4,12 +4,14 @@ import java.util.Scanner;
 
 public class UserRole extends Role {
     public void showMenu(Scanner scanner) {
-        while (true){
+        
             System.out.println("User Menu:");
             System.out.println("1. Rent Vehicle");
             System.out.println("2. Return Vehicle");
             System.out.println("3. View All Vehicles");
             System.out.println("4. Exit");
+
+            while (true){
             int choice = scanner.nextInt();
             scanner.nextLine();
 
