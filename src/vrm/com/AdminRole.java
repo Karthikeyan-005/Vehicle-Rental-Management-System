@@ -3,7 +3,6 @@ package vrm.com;
 import java.util.Scanner;
 
 public class AdminRole extends Role {
-    @Override
     public void showMenu(Scanner scanner) {
         System.out.println("Admin Menu:");
         System.out.println("1. Add Vehicle");
@@ -11,7 +10,7 @@ public class AdminRole extends Role {
         System.out.println("3. Delete Vehicle");
         System.out.println("4. View All Vehicles");
         System.out.println("5. Exit");
-
+        while (true){
         int choice = scanner.nextInt();
         scanner.nextLine();
 
@@ -22,6 +21,7 @@ public class AdminRole extends Role {
             case 4 -> AdminOperations.viewVehicles();
             case 5 -> System.exit(0);
             default -> System.out.println("Invalid choice.");
-        }
-    }
+          }
+      }
+   }
 }
