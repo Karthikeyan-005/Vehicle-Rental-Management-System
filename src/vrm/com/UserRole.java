@@ -12,6 +12,7 @@ public class UserRole extends Role {
             System.out.println("4. Exit");
 
             while (true){
+            System.out.print("Enter your Choice: ");
             int choice = scanner.nextInt();
             scanner.nextLine();
 
