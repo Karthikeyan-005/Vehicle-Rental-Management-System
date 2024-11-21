@@ -138,9 +138,9 @@ git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.gi
 
 2. Set Up the Database
 
-Open MySQL Workbench or your preferred database tool.
+ Open MySQL Workbench or your preferred database tool.
 
-Create a new database (vehicle_rental).
+ Create a new database (vehicle_rental).
 
 Import the SQL file located in the /database folder:
 
