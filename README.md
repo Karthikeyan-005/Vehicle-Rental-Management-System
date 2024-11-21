@@ -53,31 +53,40 @@ total_count: Number of vehicles available for rent.
 This application is designed with a strong focus on Object-Oriented Programming (OOP) principles. Below are the key OOP concepts applied in the project:
 
 ### 1. Abstraction
-Description:
- Abstracting high-level functionalities through abstract classes.
-Usage:
- The Role class is defined as an abstract class to generalize the behaviors of both admin and user roles. Concrete implementations (AdminRole and UserRole) provide specific functionalities.
+**Description:**
+Abstracting high-level functionalities through abstract classes.
+
+**Usage:**
+The Role class is defined as an abstract class to generalize the behaviors of both admin and user roles. Concrete implementations (AdminRole and UserRole) provide specific functionalities.
+
 ### 2. Encapsulation
-Description:
- Wrapping data and methods that operate on data within a single unit to protect the data.
-Usage:
+**Description:**
+Wrapping data and methods that operate on data within a single unit to protect the data.
+
+**Usage:**
  The DatabaseConnection class encapsulates database connection logic, ensuring it is reusable and secure.
 Admin and user operations are modularized in the AdminOperations and UserOperations classes, hiding implementation details from the main program.
+
 ### 3. Inheritance
-Description:
+**Description:**
  Enabling one class to acquire the properties and methods of another class.
-Usage:
+
+**Usage:**
  The AdminRole and UserRole classes inherit from the Role class, allowing common role-based functionalities to be defined once and extended by specific roles.
+
 ### 4. Polymorphism
-Description:
+**Description:**
  Allowing methods to be overridden or objects to take on multiple forms.
-Usage:
+
+**Usage:**
  Method overriding is used in AdminRole and UserRole to provide specific implementations of the showMenu() method.
 Polymorphism is demonstrated in the main program by treating objects of AdminRole and UserRole as instances of the Role superclass.
+
 ### 5. Modularity (Supporting Concept)
-Description:
+**Description:**
  Structuring the application into independent modules for better organization and maintenance.
-Usage:
+
+**Usage:**
  Different functionalities like authentication, role-specific operations, and database interactions are separated into distinct classes.
 By leveraging these OOP principles, the application is modular, reusable, and easier to maintain.
 
