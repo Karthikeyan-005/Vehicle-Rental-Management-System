@@ -1,4 +1,4 @@
-# Vehicle-Rental-Management-System
+# Vehicle-Rental-Management-System 🚗 🏍️ 🚚 🔑 💰 📋
 
 ## Overview
 
@@ -32,22 +32,35 @@ Browse through the list of vehicles available for rent.
 
 ## Technology Stack
 ### Frontend
-Java Console: The application uses a simple console interface for interactions.
+**Java Console:** 
+The application uses a simple console interface for interactions.
 ### Backend
-Java: Core programming language used for business logic and role management.
-MySQL: Database used to store vehicle information and transaction details.
-Tools and Libraries
-JDBC: Java Database Connectivity for database operations.
-MySQL Workbench: Used for database creation and management.
+**Java:** 
+Core programming language used for business logic and role management.
+
+**MySQL:** 
+Database used to store vehicle information and transaction details.
+
+### Tools and Libraries
+**JDBC:** 
+Java Database Connectivity for database operations.
+
+**MySQL Workbench:** 
+Used for database creation and management.
 
 ### Database Structure
 The database vehicle_rental contains a table named vehicles with the following structure:
 
-id: Primary key, unique identifier for each vehicle.
-type: Type of the vehicle (e.g., Car, Bike, Truck).
-number: Unique vehicle number.
-price_per_day: Rental price per day.
-total_count: Number of vehicles available for rent.
+**id:** Primary key, unique identifier for each vehicle.
+
+**type:** Type of the vehicle (e.g., Car, Bike, Truck).
+
+**number:** Unique vehicle number.
+
+**price_per_day:** Rental price per day.
+
+**total_count:** Number of vehicles available for rent.
+
 
 ## Object-Oriented Programming (OOP) Concepts Used
 This application is designed with a strong focus on Object-Oriented Programming (OOP) principles. Below are the key OOP concepts applied in the project:
@@ -88,6 +101,7 @@ Polymorphism is demonstrated in the main program by treating objects of AdminRol
 
 **Usage:**
  Different functionalities like authentication, role-specific operations, and database interactions are separated into distinct classes.
+
 By leveraging these OOP principles, the application is modular, reusable, and easier to maintain.
 
 ## How to Run the Application
@@ -95,16 +109,24 @@ By leveraging these OOP principles, the application is modular, reusable, and ea
 ### Prerequisites
 
 Java Development Kit (JDK) installed on your system.
+
 MySQL Workbench installed and configured.
+
 MySQL JDBC Driver added to your project's classpath.
+
 
 ### Steps
 
 Clone the repository:
+
 bash
+
 Copy code
+
 git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
+
 Import the project into your favorite IDE (IntelliJ IDEA).
+
 
 ## Set up the database:
 
@@ -113,32 +135,60 @@ Import the project into your favorite IDE (IntelliJ IDEA).
 bash
 Copy code
 git clone https://github.com/Karthikeyan-005/Vehicle-Rental-Management-System.git
+
 2. Set Up the Database
+
 Open MySQL Workbench or your preferred database tool.
+
 Create a new database (vehicle_rental).
+
 Import the SQL file located in the /database folder:
+
 Navigate to the database/vehicle_rental.sql file.
+
 Execute the script to set up the schema and populate the tables.
+
 3. Update Database Configuration
+
 In the application code, update the database connection details in the Java file handling the database connection (DatabaseConnection.java):
 
 java
+
 Copy code
+
 String url = "jdbc:mysql://localhost:3306/vehicle_rental";
+
 String user = "your-username";
+
 String password = "your-password";
+
 4. Run the Application
+
 Open the project in your Java IDE.
+
 Build and run the application.
 
 ## Usage
+
 ### Login:
-**Admins:** Use the username admin and password admin123.
-**Users:** Simply select "no" when prompted for admin access.
+
+**Admins:** 
+Use the username admin and password admin123.
+
+**Users:** 
+Simply select "no" when prompted for admin access.
 Follow the menus to perform desired actions.
 
 ## Future Enhancements
-**Enhanced User Interface:** Upgrade from console-based input to a graphical user interface (GUI).
-**Reservation History:** Add a feature to track rental history for users.
-**Analytics:** Provide reports on vehicle usage and revenue generation.
-**Online Payment Integration:** Implement online payment systems for seamless transactions.
+
+**Enhanced User Interface:** 
+Upgrade from console-based input to a graphical user interface (GUI).
+
+**Reservation History:** 
+Add a feature to track rental history for users.
+
+**Analytics:** 
+Provide reports on vehicle usage and revenue generation.
+
+**Online Payment Integration:** 
+Implement online payment systems for seamless transactions.
